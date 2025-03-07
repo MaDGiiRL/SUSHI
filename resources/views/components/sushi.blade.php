@@ -4,7 +4,7 @@
 
             <img src="/images/stars-black.png" width="160px" class="mb-2">
             <h2>Sushi Galore</h2>
-            <p class="lead text-dark">
+            <p class="lead text-dark fs-5">
                 Scroll through our menu and pick the sushi for you! We offer every kind of sushi, and even have our very own unique inventions!
 
                 Don’t hesitate, try them today!
