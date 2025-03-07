@@ -1,7 +1,7 @@
+<img src="images/bg.png" width="100%" class="mt-5">
 <footer class="footer text-center text-lg-start">
     <div class="container-fluid">
         <div class="row p-5">
-
             <div class="col-md-4 text-center text-md-start">
                 <h3>SUSHI CRAVING</h3>
                 <div class="social-icons mt-3">
@@ -40,6 +40,5 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </footer>

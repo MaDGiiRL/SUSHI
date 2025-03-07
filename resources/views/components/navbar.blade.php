@@ -16,9 +16,9 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{route('welcome')}" {{Route::currentRouteName() == 'welcome' ? 'fw-bold' : ''}}>HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{route('menu')}" {{Route::currentRouteName() == 'menu' ? 'fw-bold' : ''}}>MENU</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{route('contact_us')}" {{Route::currentRouteName() == 'contact_us' ? 'fw-bold' : ''}}>CONTACT US</a></li>
                 </ul>
                 <button class="btn btn-outline-dark me-3">Log In</button>
                 <button class="btn btn-custom">Sign Up</button>

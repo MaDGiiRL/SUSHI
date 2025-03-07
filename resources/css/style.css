@@ -3,6 +3,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 /* Navbar */
@@ -12,9 +13,14 @@ a.nav-link {
 }
 
 a.nav-link:hover {
+    color: #f523c9;
     text-decoration: underline 3px;
 }
 
+.circle-container{
+    position: relative;
+    left: -100px
+}
 .circle {
     position: relative;
     width: 200px;
@@ -309,7 +315,7 @@ h2 {
 
 
 .footer {
-    background-color: #111;
+    background-color: #000;
     color: white;
     padding: 40px 0;
 }

@@ -1,5 +1,5 @@
-<div class="container-fluid shadow-custom">
-    <div class="row justify-content-center bg-pink p-5 shadow">
+<div class="container-fluid shadow-custom my-5  mb-5">
+    <div class="row justify-content-center bg-pink py-5 shadow my-5">
         <div class="col-6">
             <div class="newsletter">
                 <h2>GET OUR LATEST NEWSLETTER</h2>
@@ -11,3 +11,4 @@
             </div>
         </div>
     </div>
+</div>

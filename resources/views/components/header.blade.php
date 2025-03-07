@@ -1,4 +1,4 @@
-<div class="bg-black mt-5 shadow-custom">
+<div class="bg-black mt-5 shadow-custom pb-5">
     <div class="container bg-design">
         <div class="row justify-content-center text-center bg-stars">
             <h1 class="text-center">Sushi Craving</h1>
