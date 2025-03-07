@@ -11,7 +11,9 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
     border-color: black
 }
-
+.text-p{
+    color: #ff8fab
+}
 /* Navbar */
 a.nav-link {
     font-family: "Poppins Black", sans-serif;
@@ -79,7 +81,7 @@ a.nav-link:hover {
 
 /* Header */
 .lead {
-    color: white;
+    color: #ff8fab;
 }
 
 h1 {
@@ -165,6 +167,7 @@ h2 {
 .sushi p {
     font-family: "Poppins Black", sans-serif;
     letter-spacing: -1px;
+    color: #ff8fab
 }
 
 .btn-sushi {
@@ -210,6 +213,7 @@ h2 {
     letter-spacing: -1px;
 
 
+
 }
 
 .platter h3 {
@@ -219,6 +223,7 @@ h2 {
 
 .platter .lead {
     font-weight: 400;
+
 }
 
 /* Promo */
@@ -235,6 +240,7 @@ h2 {
 .promo p {
     color: white
 }
+
 
 /* Footer */
 .bg-footer {

@@ -14,7 +14,7 @@
             <div class="col-md-8 mt-4 mt-md-0 text-end">
                 <div class="row">
                     <div class="col-6 col-md-6">
-                        <h5 class="fw-bold">QUICK LINKS</h5>
+                        <h5 class="fw-bold text-p">QUICK LINKS</h5>
                         <ul class="list-unstyled">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Menu</a></li>
