@@ -6,6 +6,12 @@ body {
     background-attachment: fixed;
 }
 
+.card {
+    background-color: #ffeef5bb;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
+    border-color: black
+}
+
 /* Navbar */
 a.nav-link {
     font-family: "Poppins Black", sans-serif;
@@ -17,10 +23,7 @@ a.nav-link:hover {
     text-decoration: underline 3px;
 }
 
-.circle-container{
-    position: relative;
-    left: -100px
-}
+
 .circle {
     position: relative;
     width: 200px;
@@ -184,7 +187,8 @@ h2 {
     -webkit-text-stroke: 2px black;
     -webkit-text-fill-color: white;
 }
-.order h2{
+
+.order h2 {
     font-size: 120px;
     font-family: "Ruslan Display", sans-serif;
     color: rgb(255, 255, 255);
@@ -319,21 +323,24 @@ h2 {
     color: white;
     padding: 40px 0;
 }
+
 .footer a {
     color: white;
     text-decoration: none;
     transition: all 1s;
 }
+
 .footer a:hover {
     color: #ff00c8;
     text-decoration: underline;
 }
+
 .social-icons a {
     color: white;
     font-size: 24px;
     margin: 0 10px;
 }
 
-.shadow-custom{
+.shadow-custom {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.459)
 }
