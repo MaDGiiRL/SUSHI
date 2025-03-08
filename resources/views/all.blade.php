@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="row">
                 @foreach($menus as $menu)
-                <div class="col-md-4 mb-3">
+                <div class="col-6 col-md-4 mb-3">
 
                     <!-- card componenets -->
                     <x-card name="{{$menu['name']}}"

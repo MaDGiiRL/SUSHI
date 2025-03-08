@@ -9,7 +9,7 @@ class PublicController extends Controller
     public $menus = [
         ["id" => "1", "name" => "Salmon Nigiri", "ingredients" => "Salmon, Rice, Wasabi", "price" => 12.00, "image" => "/images/menu/1.png"],
         ["id" => "2", "name" => "Tuna Nigiri", "ingredients" => "Tuna, Rice, Wasabi", "price" => 14.00, "image" => "/images/menu/2.png"],
-        ["id" => "3", "name" => "Tuna Avocado Roll", "ingredients" => "Tuna, Avocado, Rice, Seaweed", "price" => 15.00, "image" => "/images/menu/3.png"],
+        ["id" => "3", "name" => "Tuna Avocado", "ingredients" => "Tuna, Avocado, Rice, Seaweed", "price" => 15.00, "image" => "/images/menu/3.png"],
         ["id" => "4", "name" => "Avocado Roll", "ingredients" => "Avocado, Rice, Seaweed", "price" => 13.00, "image" => "/images/menu/4.png"],
         ["id" => "5", "name" => "Eel Roll", "ingredients" => "Eel, Cucumber, Rice, Seaweed", "price" => 15.00, "image" => "/images/menu/5.png"],
         ["id" => "6", "name" => "Vegetable Roll", "ingredients" => "Carrot, Cucumber, Avocado, Rice, Seaweed", "price" => 15.00, "image" => "/images/menu/6.png"],

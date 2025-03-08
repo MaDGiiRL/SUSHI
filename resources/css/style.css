@@ -6,14 +6,20 @@ body {
     background-attachment: fixed;
 }
 
+ul {
+    list-style: none;
+}
+
 .card {
     background-color: #ffeef5bb;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
     border-color: black
 }
-.text-p{
+
+.text-p {
     color: #ff8fab
 }
+
 /* Navbar */
 a.nav-link {
     font-family: "Poppins Black", sans-serif;
@@ -367,7 +373,7 @@ h2 {
 
 
 /* Menu Page */
-.text-order{
+.text-order {
     font-size: 70px;
     font-family: "Ruslan Display", sans-serif;
     color: white;
@@ -376,15 +382,30 @@ h2 {
     -webkit-text-stroke: 2px black;
     -webkit-text-fill-color: white;
 }
-.card-menu{
+
+.card-menu {
     font-size: 28px;
     font-family: "Ruslan Display", sans-serif;
     color: black;
     line-height: 1;
     text-align: center;
 }
+
 .price-menu {
     color: #f523c9;
     font-family: "Ruslan Display", sans-serif;
     font-size: 40px
+}
+
+.guide-lines h4 {
+    font-size: 35px;
+    font-family: "Ruslan Display", sans-serif;
+    color: black;
+    line-height: 1;
+}
+
+.form{
+    background-color: #ffeef5bb;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
+    border-color: black
 }
