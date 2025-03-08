@@ -41,4 +41,12 @@
             </div>
         </div>
     </div>
+    <div class="col-12 mt-5 text-center" data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+        <div class="text-center footer-copyright">
+            <p class="mb-0 mt-2">&copy; 2025 Developed with ♡ by Sofia Vidotto</p>
+            <p class="mb-0"><a href="#">BACK TO TOP <i class="bi bi-arrow-up-short"></i></a></p>
+        </div>
+    </div>
 </footer>

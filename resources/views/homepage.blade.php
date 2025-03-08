@@ -12,4 +12,6 @@
 
     <x-newsletter />
 
+
+
 </x-layout>

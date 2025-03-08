@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active {{Route::currentRouteName() == 'homepage' ? 'fw-bold' : ''}}" href="{{route('homepage')}}">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link  {{Route::currentRouteName() == 'menu.delivery' ? 'fw-bold' : ''}}" href="{{route('menu.delivery')}}">MENU</a></li>
+                    <li class="nav-item"><a class="nav-link  {{Route::currentRouteName() == 'menu' ? 'fw-bold' : ''}}" href="{{route('menu')}}">MENU</a></li>
                     <li class="nav-item"><a class="nav-link {{Route::currentRouteName() == 'contact_us' ? 'fw-bold' : ''}}" href="{{route('contact_us')}}">CONTACT US</a></li>
                 </ul>
                 <button class="btn btn-outline-dark me-3">Log In</button>

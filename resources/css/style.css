@@ -20,6 +20,10 @@ ul {
     color: #ff8fab
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Navbar */
 a.nav-link {
     font-family: "Poppins Black", sans-serif;
@@ -127,7 +131,6 @@ h1 {
     -webkit-text-fill-color: white;
     position: relative;
     top: 30px
-
 }
 
 .p-custom {
@@ -436,4 +439,13 @@ h2 {
     background-color: #ffeef5bb;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
     border-color: black
+}
+
+.bowl {
+    color: black;
+    transition: all 1s;
+}
+
+.bowl:hover {
+    color: #f523c9
 }

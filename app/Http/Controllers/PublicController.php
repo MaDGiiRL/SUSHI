@@ -44,4 +44,9 @@ class PublicController extends Controller
     {
         return view('all', ['menus' => $this->menus]);
     }
+
+    public function contact_us()
+    {
+        return view('contact_us');
+    }
 }

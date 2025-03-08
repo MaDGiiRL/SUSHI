@@ -15,7 +15,9 @@
                 @endforeach
             </div>
 
-            <a href="{{ route('menu') }}" class="btn btn-custom mt-3 w-50 text-center">Go Back</a>
+            <div class="col-12 text-center pt-5">
+                <a href="{{route('menu')}}" class="btn btn-pink w-50">Go Back</a>
+            </div>
         </div>
     </div>
 </x-layout>
