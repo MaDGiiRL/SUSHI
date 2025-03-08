@@ -1,6 +1,10 @@
 <div class="container-fluid banner  pb-5 mb-5 bg-out bg-black p-5 shadow-custom">
-    <div class="row justify-content-center align-item-center text-center pb-5 mb-5 bg-design mb-5">
-        <div class="col-md-6 mb-5 pb-5">
+    <div class="row justify-content-center align-item-center text-center pb-5 mb-5 bg-design mb-5" data-aos="fade-left"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine">
+        <div class="col-md-6 mb-5 pb-5" data-aos="fade-down"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine">
             <h3 class="pt-5">
                 Don't know which sushi to get?
             </h3>
@@ -13,7 +17,9 @@
         </div>
     </div>
 
-    <div class="pt-md-5">
+    <div class="pt-md-5" data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine">
         <div class="row order mt-5">
             <div class="col-md-5">
                 <h2>

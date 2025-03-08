@@ -1,6 +1,8 @@
 <div class="container promo py-5 my-5">
     <div class="row py-5 my-5">
-        <div class="col-md-6 shadow-custom bg-black bg-design2">
+        <div class="col-md-6 shadow-custom bg-black bg-design2" data-aos="fade-up"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
             <div class="row p-5 bg-out2 text-center">
                 <div class="col-12">
                     <h2 class="pt-5">
@@ -15,7 +17,9 @@
             </div>
 
         </div>
-        <div class="col-md-6  text-center ps-5 pt-4">
+        <div class="col-md-6  text-center ps-5 pt-4" data-aos="fade-down"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
             <img src="/images/img-sushi.png" class="img-fluid" width="100%">
         </div>
     </div>

@@ -4,7 +4,9 @@
         <div class="row align-items-center">
             <div class="row justify-content-center">
                 @foreach($menus->take(3) as $menu)
-                <div class="col-12 col-md-4 mb-3">
+                <div class="col-12 col-md-4 mb-3" data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">
                     <!-- card componenets -->
                     <x-card name="{{$menu['name']}}"
                         price="{{$menu['price']}}"
@@ -15,16 +17,20 @@
             </div>
 
             <div class="col-12 text-center">
-                
+
             </div>
         </div>
     </div>
 
 
     <div class="container py-5 mt-5">
-        <h2 class="text-center mb-4  mt-5 pb-5">Get Your Sushi Bowl </h2>
+        <h2 class="text-center mb-4  mt-5 pb-5" data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine">Get Your Sushi Bowl </h2>
         <div class="row">
-            <div class="col-md-6 form p-5">
+            <div class="col-md-6 form p-5" data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine">
                 <form>
                     <div class="mb-3">
                         <label for="name" class="form-label">Full Name</label>
@@ -113,7 +119,9 @@
                     <button type="submit" class="btn btn-custom w-100">Place Order</button>
                 </form>
             </div>
-            <div class="col-md-6 guide-lines">
+            <div class="col-md-6 guide-lines" data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine">
                 <ul class="py-5 fs-5">
                     <h4>🍚 How to Order Your Poke Bowl</h4>
                     <li>
