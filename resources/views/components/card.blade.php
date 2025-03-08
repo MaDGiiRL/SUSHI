@@ -4,6 +4,6 @@
         <h5 class="card-menu">{{$name}}</h5>
         <p class="card-text">{{$ingredients}}</p>
         <p class="price-menu">$ {{$price}}</p>
-        <button class="btn btn-outline-dark">ORDER NOW</button>
+        <button class="btn btn-outline-dark">ORDER NOW <i class="bi bi-arrow-right-circle"></i></button>
     </div>
 </div>

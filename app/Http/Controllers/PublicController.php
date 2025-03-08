@@ -26,8 +26,8 @@ class PublicController extends Controller
         ["id" => "17", "name" => "Toro Nigiri", "ingredients" => "Fatty Tuna, Rice", "price" => 20.00, "image" => "/images/menu/18.png"],
         ["id" => "18", "name" => "Shrimp Nigiri", "ingredients" => "Shrimp, Rice", "price" => 14.00, "image" => "/images/menu/19.png"],
         ["id" => "19", "name" => "Octopus Nigiri", "ingredients" => "Octopus, Rice", "price" => 15.50, "image" => "/images/menu/20.png"],
-        ["id" => "20", "name" => "Ikura Nigiri", "ingredients" => "Salmon Roe, Rice, Seaweed", "price" => 18.00, "image" => "/images/menu/22.png"],
-        ["id" => "21", "name" => "Tamago Nigiri", "ingredients" => "Sweet Egg, Rice", "price" => 12.50, "image" => "/images/menu/21.png"],
+        ["id" => "20", "name" => "Ikura Nigiri", "ingredients" => "Salmon Roe, Rice, Seaweed", "price" => 18.00, "image" => "/images/menu/21.png"],
+        ["id" => "21", "name" => "Tamago Nigiri", "ingredients" => "Sweet Egg, Rice", "price" => 12.50, "image" => "/images/menu/22.png"],
     ];
 
     public function homepage()
@@ -37,6 +37,11 @@ class PublicController extends Controller
 
     public function menu()
     {
-        return view('menu', ['menus' => $this->menus]);
+        return view('menu', ['menus' => collect($this->menus)->take(3)]);
+    }
+
+    public function all()
+    {
+        return view('all', ['menus' => $this->menus]);
     }
 }
