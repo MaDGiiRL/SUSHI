@@ -449,3 +449,26 @@ h2 {
 .bowl:hover {
     color: #f523c9
 }
+
+
+/*Contact Us*/
+.bg-contact {
+    background-image: url(/public/images/header-contact.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.contact {
+    position: relative;
+    top: 50px
+}
+
+h3{ font-size: 50px;
+font-family: "Ruslan Display",
+sans-serif;
+color: white;
+line-height: 1;
+text-align: center;
+-webkit-text-stroke: 2px black;
+-webkit-text-fill-color: white;
+}

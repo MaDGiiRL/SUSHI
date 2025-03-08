@@ -1,5 +1,5 @@
 <div class="container-fluid banner  pb-5 mb-5 bg-out bg-black p-5 shadow-custom">
-    <div class="row justify-content-center align-item-center text-center pb-5 mb-5 bg-design mb-5" data-aos="fade-left"
+    <div class="row justify-content-center align-item-center text-center pb-5 mb-5 bg-design mb-5" data-aos="fade-up"
         data-aos-offset="500"
         data-aos-easing="ease-in-sine">
         <div class="col-md-6 mb-5 pb-5" data-aos="fade-down"
@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="pt-md-5" data-aos="fade-right"
+    <div class="pt-md-5" data-aos="fade-down"
         data-aos-offset="100"
         data-aos-easing="ease-in-sine">
         <div class="row order mt-5">
