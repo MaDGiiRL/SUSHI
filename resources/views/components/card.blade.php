@@ -1,8 +1,9 @@
 <div class="card text-center">
-    <img src="{{$image}}" class="card-img-top img-fluid" alt="Salmon Sushi">
+    <img src="{{$image}}" alt="Salmon Sushi" class="img-fluid">
     <div class="card-body">
-        <h5 class="card-title">{{$name}}</h5>
-        <p class="card-text">$ {{$price}}</p>
+        <h5 class="card-menu">{{$name}}</h5>
+        <p class="card-text">{{$ingredients}}</p>
+        <p class="price-menu">$ {{$price}}</p>
         <button class="btn btn-outline-dark">ORDER NOW</button>
     </div>
 </div>

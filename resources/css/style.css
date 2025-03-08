@@ -376,3 +376,15 @@ h2 {
     -webkit-text-stroke: 2px black;
     -webkit-text-fill-color: white;
 }
+.card-menu{
+    font-size: 28px;
+    font-family: "Ruslan Display", sans-serif;
+    color: black;
+    line-height: 1;
+    text-align: center;
+}
+.price-menu {
+    color: #f523c9;
+    font-family: "Ruslan Display", sans-serif;
+    font-size: 40px
+}
