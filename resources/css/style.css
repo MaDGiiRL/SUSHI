@@ -111,6 +111,34 @@ h1 {
 }
 
 
+/* Header Menu */
+.bg-header-menu {
+    background-image: url(/public/images/bg-header-menu.png);
+    background-size: cover;
+}
+
+.menu h1 {
+    font-size: 100px;
+    font-family: "Ruslan Display", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.646;
+    text-align: center;
+    -webkit-text-stroke: 5px black;
+    -webkit-text-fill-color: white;
+    position: relative;
+    top: 30px
+
+}
+
+.p-custom {
+    padding: 95px
+}
+
+.relative-custom {
+    position: relative;
+    top: 120px
+}
+
 .btn-pink {
     background-image: linear-gradient(135deg, rgb(245, 35, 201) 40%, rgb(255, 142, 172));
     color: white;
@@ -404,7 +432,7 @@ h2 {
     line-height: 1;
 }
 
-.form{
+.form {
     background-color: #ffeef5bb;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
     border-color: black

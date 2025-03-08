@@ -1,11 +1,7 @@
 <x-layout title="Menù">
+    <x-header />
     <div class="container mt-4">
         <div class="row align-items-center">
-            <div class="col-12">
-                <h2 class="text-black text-center p-5">🥢Menu</h2>
-            </div>
-
-
             <div class="row justify-content-center">
                 @foreach($menus->take(3) as $menu)
                 <div class="col-12 col-md-4 mb-3">
@@ -19,7 +15,7 @@
             </div>
 
             <div class="col-12 text-center">
-                <a href="{{ route('all') }}" class="btn btn-custom mt-3 text-center">View all Menu <i class="bi bi-arrow-right-circle"></i></a>
+                
             </div>
         </div>
     </div>
